@@ -1,0 +1,6 @@
+framework module Pods_XXDDKit_Tests {
+  umbrella header "Pods-XXDDKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

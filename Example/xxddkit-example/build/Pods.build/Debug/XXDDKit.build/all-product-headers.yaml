@@ -1,0 +1,70 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/zglee/Documents/GitHub/XXDDKit/Example/xxddkit-example/build/Debug/Pods_xxddkit_example_macOS.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-xxddkit-example macOS-umbrella.h",
+          'external-contents': "/Users/zglee/Documents/GitHub/XXDDKit/Example/xxddkit-example/Pods/Target Support Files/Pods-xxddkit-example macOS/Pods-xxddkit-example macOS-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_xxddkit_example_macOS-Swift.h",
+          'external-contents': "/Users/zglee/Documents/GitHub/XXDDKit/Example/xxddkit-example/build/Debug/Pods_xxddkit_example_macOS.framework/Versions/A/Headers/Pods_xxddkit_example_macOS-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zglee/Documents/GitHub/XXDDKit/Example/xxddkit-example/build/Debug/Pods_xxddkit_example_macOS.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zglee/Documents/GitHub/XXDDKit/Example/xxddkit-example/build/Pods.build/Debug/Pods-xxddkit-example macOS.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zglee/Documents/GitHub/XXDDKit/Example/xxddkit-example/build/Debug/XXDDKit/XXDDKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "XXDDKit-Swift.h",
+          'external-contents': "/Users/zglee/Documents/GitHub/XXDDKit/Example/xxddkit-example/build/Debug/XXDDKit/XXDDKit.framework/Versions/A/Headers/XXDDKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "XXDDKit-umbrella.h",
+          'external-contents': "/Users/zglee/Documents/GitHub/XXDDKit/Example/xxddkit-example/Pods/Target Support Files/XXDDKit/XXDDKit-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "XXDDKit.h",
+          'external-contents': "/Users/zglee/Documents/GitHub/XXDDKit/XXDDKit/XXDDKit.h"
+        },
+        {
+          'type': 'file',
+          'name': "XXDDObject.h",
+          'external-contents': "/Users/zglee/Documents/GitHub/XXDDKit/core/XXDDObject.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zglee/Documents/GitHub/XXDDKit/Example/xxddkit-example/build/Debug/XXDDKit/XXDDKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zglee/Documents/GitHub/XXDDKit/Example/xxddkit-example/build/Pods.build/Debug/XXDDKit.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

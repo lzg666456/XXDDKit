@@ -1,0 +1,19 @@
+PODS:
+  - XXDDKit (0.1.0):
+    - XXDDKit/core (= 0.1.0)
+    - XXDDKit/UIKit (= 0.1.0)
+  - XXDDKit/core (0.1.0)
+
+DEPENDENCIES:
+  - XXDDKit (from `../../`)
+
+EXTERNAL SOURCES:
+  XXDDKit:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  XXDDKit: 0d8b7c28a11eadc08609fae4b74bb9299e8d3ca2
+
+PODFILE CHECKSUM: bbc0efcee3fe51f3ffef2ff207a20dbfa2d87abb
+
+COCOAPODS: 1.5.2

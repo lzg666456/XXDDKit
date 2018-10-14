@@ -1,0 +1,30 @@
+PODS:
+  - Nimble (7.0.3)
+  - Quick (1.2.0)
+  - XXDDKit (0.1.0):
+    - XXDDKit/core (= 0.1.0)
+    - XXDDKit/UIKit (= 0.1.0)
+  - XXDDKit/core (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+  - XXDDKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  XXDDKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  XXDDKit: 0d8b7c28a11eadc08609fae4b74bb9299e8d3ca2
+
+PODFILE CHECKSUM: bfc926ec9595663c20af1babc24d5ab32739a8b5
+
+COCOAPODS: 1.5.2

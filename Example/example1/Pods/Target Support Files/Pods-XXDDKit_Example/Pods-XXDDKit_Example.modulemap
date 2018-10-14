@@ -1,0 +1,6 @@
+framework module Pods_XXDDKit_Example {
+  umbrella header "Pods-XXDDKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

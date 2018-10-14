@@ -1,0 +1,999 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C71A1ADA90604001B1CA680 /* Pods_xxddkit_example_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB82A48C694BFF3831EDE73 /* Pods_xxddkit_example_macOS.framework */; };
+		B7A930B32171E170008B4C3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930B22171E170008B4C3B /* AppDelegate.m */; };
+		B7A930B62171E170008B4C3B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930B52171E170008B4C3B /* GameViewController.m */; };
+		B7A930B92171E170008B4C3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A930B72171E170008B4C3B /* Main.storyboard */; };
+		B7A930BC2171E170008B4C3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A930BA2171E170008B4C3B /* LaunchScreen.storyboard */; };
+		B7A930BF2171E170008B4C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930BE2171E170008B4C3B /* main.m */; };
+		B7A930C32171E170008B4C3B /* xxddkit-example.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B7A930C22171E170008B4C3B /* xxddkit-example.app */; };
+		B7A930C92171E170008B4C3B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A930C72171E170008B4C3B /* Interface.storyboard */; };
+		B7A930D02171E170008B4C3B /* xxddkit-example Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B7A930CF2171E170008B4C3B /* xxddkit-example Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B7A930D62171E170008B4C3B /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930D52171E170008B4C3B /* InterfaceController.m */; };
+		B7A930D92171E170008B4C3B /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930D82171E170008B4C3B /* ExtensionDelegate.m */; };
+		B7A930E32171E170008B4C3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930E22171E170008B4C3B /* AppDelegate.m */; };
+		B7A930E62171E170008B4C3B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930E52171E170008B4C3B /* GameViewController.m */; };
+		B7A930E92171E170008B4C3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A930E72171E170008B4C3B /* Main.storyboard */; };
+		B7A930EC2171E170008B4C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930EB2171E170008B4C3B /* main.m */; };
+		B7A930F52171E170008B4C3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930F42171E170008B4C3B /* AppDelegate.m */; };
+		B7A930F82171E170008B4C3B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930F72171E170008B4C3B /* GameViewController.m */; };
+		B7A930FB2171E170008B4C3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A930F92171E170008B4C3B /* Main.storyboard */; };
+		B7A930FE2171E170008B4C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930FD2171E170008B4C3B /* main.m */; };
+		B7A930FF2171E170008B4C3B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7A930A52171E16D008B4C3B /* Actions.sks */; };
+		B7A931002171E170008B4C3B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7A930A52171E16D008B4C3B /* Actions.sks */; };
+		B7A931012171E170008B4C3B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7A930A52171E16D008B4C3B /* Actions.sks */; };
+		B7A931022171E170008B4C3B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7A930A62171E16D008B4C3B /* GameScene.sks */; };
+		B7A931032171E170008B4C3B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7A930A62171E16D008B4C3B /* GameScene.sks */; };
+		B7A931042171E170008B4C3B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7A930A62171E16D008B4C3B /* GameScene.sks */; };
+		B7A931052171E170008B4C3B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7A930A62171E16D008B4C3B /* GameScene.sks */; };
+		B7A931062171E170008B4C3B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930A82171E16D008B4C3B /* GameScene.m */; };
+		B7A931072171E170008B4C3B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930A82171E16D008B4C3B /* GameScene.m */; };
+		B7A931082171E170008B4C3B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930A82171E16D008B4C3B /* GameScene.m */; };
+		B7A931092171E170008B4C3B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A930A82171E16D008B4C3B /* GameScene.m */; };
+		B7A9310A2171E170008B4C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A930A92171E170008B4C3B /* Assets.xcassets */; };
+		B7A9310B2171E170008B4C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A930A92171E170008B4C3B /* Assets.xcassets */; };
+		B7A9310C2171E170008B4C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A930A92171E170008B4C3B /* Assets.xcassets */; };
+		B7A9310D2171E170008B4C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7A930A92171E170008B4C3B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7A930C42171E170008B4C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7A930A02171E16C008B4C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7A930C12171E170008B4C3B;
+			remoteInfo = "xxddkit-example watchOS App";
+		};
+		B7A930D12171E170008B4C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7A930A02171E16C008B4C3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7A930CE2171E170008B4C3B;
+			remoteInfo = "xxddkit-example watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B7A931132171E170008B4C3B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B7A930D02171E170008B4C3B /* xxddkit-example Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A931172171E170008B4C3B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B7A930C32171E170008B4C3B /* xxddkit-example.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BB82A48C694BFF3831EDE73 /* Pods_xxddkit_example_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xxddkit_example_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C0C601116528A8C6A5A50D /* Pods-xxddkit-example macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xxddkit-example macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-xxddkit-example macOS/Pods-xxddkit-example macOS.release.xcconfig"; sourceTree = "<group>"; };
+		B7A930A52171E16D008B4C3B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B7A930A62171E16D008B4C3B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B7A930A72171E16D008B4C3B /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B7A930A82171E16D008B4C3B /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B7A930A92171E170008B4C3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7A930AE2171E170008B4C3B /* xxddkit-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xxddkit-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A930B12171E170008B4C3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7A930B22171E170008B4C3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7A930B42171E170008B4C3B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B7A930B52171E170008B4C3B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B7A930B82171E170008B4C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7A930BB2171E170008B4C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7A930BD2171E170008B4C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A930BE2171E170008B4C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7A930C22171E170008B4C3B /* xxddkit-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xxddkit-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A930C82171E170008B4C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B7A930CA2171E170008B4C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A930CF2171E170008B4C3B /* xxddkit-example Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xxddkit-example Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A930D42171E170008B4C3B /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		B7A930D52171E170008B4C3B /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		B7A930D72171E170008B4C3B /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		B7A930D82171E170008B4C3B /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		B7A930DA2171E170008B4C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A930DF2171E170008B4C3B /* xxddkit-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xxddkit-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A930E12171E170008B4C3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7A930E22171E170008B4C3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7A930E42171E170008B4C3B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B7A930E52171E170008B4C3B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B7A930E82171E170008B4C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7A930EA2171E170008B4C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A930EB2171E170008B4C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7A930F12171E170008B4C3B /* xxddkit-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xxddkit-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A930F32171E170008B4C3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7A930F42171E170008B4C3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7A930F62171E170008B4C3B /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B7A930F72171E170008B4C3B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B7A930FA2171E170008B4C3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7A930FC2171E170008B4C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7A930FD2171E170008B4C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDA406645C1C5A45FF5DED6F /* Pods-xxddkit-example macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xxddkit-example macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xxddkit-example macOS/Pods-xxddkit-example macOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7A930AB2171E170008B4C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A930CC2171E170008B4C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A930DC2171E170008B4C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A930EE2171E170008B4C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C71A1ADA90604001B1CA680 /* Pods_xxddkit_example_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10428FBF091706CD8A81898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335AA5B5DBBB745F3D99253F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BB82A48C694BFF3831EDE73 /* Pods_xxddkit_example_macOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7A9309F2171E16C008B4C3B = {
+			isa = PBXGroup;
+			children = (
+				B7A930A42171E16D008B4C3B /* xxddkit-example Shared */,
+				B7A930B02171E170008B4C3B /* xxddkit-example iOS */,
+				B7A930C62171E170008B4C3B /* xxddkit-example watchOS App */,
+				B7A930D32171E170008B4C3B /* xxddkit-example watchOS App Extension */,
+				B7A930E02171E170008B4C3B /* xxddkit-example tvOS */,
+				B7A930F22171E170008B4C3B /* xxddkit-example macOS */,
+				B7A930AF2171E170008B4C3B /* Products */,
+				FB72335E0405838C5B549397 /* Pods */,
+				335AA5B5DBBB745F3D99253F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7A930A42171E16D008B4C3B /* xxddkit-example Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B7A930A52171E16D008B4C3B /* Actions.sks */,
+				B7A930A62171E16D008B4C3B /* GameScene.sks */,
+				B7A930A72171E16D008B4C3B /* GameScene.h */,
+				B7A930A82171E16D008B4C3B /* GameScene.m */,
+				B7A930A92171E170008B4C3B /* Assets.xcassets */,
+			);
+			path = "xxddkit-example Shared";
+			sourceTree = "<group>";
+		};
+		B7A930AF2171E170008B4C3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7A930AE2171E170008B4C3B /* xxddkit-example.app */,
+				B7A930C22171E170008B4C3B /* xxddkit-example.app */,
+				B7A930CF2171E170008B4C3B /* xxddkit-example Extension.appex */,
+				B7A930DF2171E170008B4C3B /* xxddkit-example.app */,
+				B7A930F12171E170008B4C3B /* xxddkit-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7A930B02171E170008B4C3B /* xxddkit-example iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7A930B12171E170008B4C3B /* AppDelegate.h */,
+				B7A930B22171E170008B4C3B /* AppDelegate.m */,
+				B7A930B42171E170008B4C3B /* GameViewController.h */,
+				B7A930B52171E170008B4C3B /* GameViewController.m */,
+				B7A930B72171E170008B4C3B /* Main.storyboard */,
+				B7A930BA2171E170008B4C3B /* LaunchScreen.storyboard */,
+				B7A930BD2171E170008B4C3B /* Info.plist */,
+				B7A930BE2171E170008B4C3B /* main.m */,
+			);
+			path = "xxddkit-example iOS";
+			sourceTree = "<group>";
+		};
+		B7A930C62171E170008B4C3B /* xxddkit-example watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				B7A930C72171E170008B4C3B /* Interface.storyboard */,
+				B7A930CA2171E170008B4C3B /* Info.plist */,
+			);
+			path = "xxddkit-example watchOS App";
+			sourceTree = "<group>";
+		};
+		B7A930D32171E170008B4C3B /* xxddkit-example watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B7A930D42171E170008B4C3B /* InterfaceController.h */,
+				B7A930D52171E170008B4C3B /* InterfaceController.m */,
+				B7A930D72171E170008B4C3B /* ExtensionDelegate.h */,
+				B7A930D82171E170008B4C3B /* ExtensionDelegate.m */,
+				B7A930DA2171E170008B4C3B /* Info.plist */,
+			);
+			path = "xxddkit-example watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		B7A930E02171E170008B4C3B /* xxddkit-example tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7A930E12171E170008B4C3B /* AppDelegate.h */,
+				B7A930E22171E170008B4C3B /* AppDelegate.m */,
+				B7A930E42171E170008B4C3B /* GameViewController.h */,
+				B7A930E52171E170008B4C3B /* GameViewController.m */,
+				B7A930E72171E170008B4C3B /* Main.storyboard */,
+				B7A930EA2171E170008B4C3B /* Info.plist */,
+				B7A930EB2171E170008B4C3B /* main.m */,
+			);
+			path = "xxddkit-example tvOS";
+			sourceTree = "<group>";
+		};
+		B7A930F22171E170008B4C3B /* xxddkit-example macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7A930F32171E170008B4C3B /* AppDelegate.h */,
+				B7A930F42171E170008B4C3B /* AppDelegate.m */,
+				B7A930F62171E170008B4C3B /* GameViewController.h */,
+				B7A930F72171E170008B4C3B /* GameViewController.m */,
+				B7A930F92171E170008B4C3B /* Main.storyboard */,
+				B7A930FC2171E170008B4C3B /* Info.plist */,
+				B7A930FD2171E170008B4C3B /* main.m */,
+			);
+			path = "xxddkit-example macOS";
+			sourceTree = "<group>";
+		};
+		FB72335E0405838C5B549397 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDA406645C1C5A45FF5DED6F /* Pods-xxddkit-example macOS.debug.xcconfig */,
+				A3C0C601116528A8C6A5A50D /* Pods-xxddkit-example macOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7A930AD2171E170008B4C3B /* xxddkit-example iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A931182171E170008B4C3B /* Build configuration list for PBXNativeTarget "xxddkit-example iOS" */;
+			buildPhases = (
+				B7A930AA2171E170008B4C3B /* Sources */,
+				B7A930AB2171E170008B4C3B /* Frameworks */,
+				B7A930AC2171E170008B4C3B /* Resources */,
+				B7A931172171E170008B4C3B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7A930C52171E170008B4C3B /* PBXTargetDependency */,
+			);
+			name = "xxddkit-example iOS";
+			productName = "xxddkit-example iOS";
+			productReference = B7A930AE2171E170008B4C3B /* xxddkit-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7A930C12171E170008B4C3B /* xxddkit-example watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A931142171E170008B4C3B /* Build configuration list for PBXNativeTarget "xxddkit-example watchOS App" */;
+			buildPhases = (
+				B7A930C02171E170008B4C3B /* Resources */,
+				B7A931132171E170008B4C3B /* Embed App Extensions */,
+				F10428FBF091706CD8A81898 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7A930D22171E170008B4C3B /* PBXTargetDependency */,
+			);
+			name = "xxddkit-example watchOS App";
+			productName = "xxddkit-example watchOS App";
+			productReference = B7A930C22171E170008B4C3B /* xxddkit-example.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B7A930CE2171E170008B4C3B /* xxddkit-example watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A931102171E170008B4C3B /* Build configuration list for PBXNativeTarget "xxddkit-example watchOS App Extension" */;
+			buildPhases = (
+				B7A930CB2171E170008B4C3B /* Sources */,
+				B7A930CC2171E170008B4C3B /* Frameworks */,
+				B7A930CD2171E170008B4C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xxddkit-example watchOS App Extension";
+			productName = "xxddkit-example watchOS App Extension";
+			productReference = B7A930CF2171E170008B4C3B /* xxddkit-example Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		B7A930DE2171E170008B4C3B /* xxddkit-example tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A9311B2171E170008B4C3B /* Build configuration list for PBXNativeTarget "xxddkit-example tvOS" */;
+			buildPhases = (
+				B7A930DB2171E170008B4C3B /* Sources */,
+				B7A930DC2171E170008B4C3B /* Frameworks */,
+				B7A930DD2171E170008B4C3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xxddkit-example tvOS";
+			productName = "xxddkit-example tvOS";
+			productReference = B7A930DF2171E170008B4C3B /* xxddkit-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7A930F02171E170008B4C3B /* xxddkit-example macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A9311E2171E170008B4C3B /* Build configuration list for PBXNativeTarget "xxddkit-example macOS" */;
+			buildPhases = (
+				68C05982B63FEE1126DA5466 /* [CP] Check Pods Manifest.lock */,
+				B7A930ED2171E170008B4C3B /* Sources */,
+				B7A930EE2171E170008B4C3B /* Frameworks */,
+				B7A930EF2171E170008B4C3B /* Resources */,
+				A9F805D9702C6EFA98E14A9F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xxddkit-example macOS";
+			productName = "xxddkit-example macOS";
+			productReference = B7A930F12171E170008B4C3B /* xxddkit-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7A930A02171E16C008B4C3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = com.zysdinfo;
+				TargetAttributes = {
+					B7A930AD2171E170008B4C3B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B7A930C12171E170008B4C3B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B7A930CE2171E170008B4C3B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B7A930DE2171E170008B4C3B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B7A930F02171E170008B4C3B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = B7A930A32171E16C008B4C3B /* Build configuration list for PBXProject "xxddkit-example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7A9309F2171E16C008B4C3B;
+			productRefGroup = B7A930AF2171E170008B4C3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7A930AD2171E170008B4C3B /* xxddkit-example iOS */,
+				B7A930C12171E170008B4C3B /* xxddkit-example watchOS App */,
+				B7A930CE2171E170008B4C3B /* xxddkit-example watchOS App Extension */,
+				B7A930DE2171E170008B4C3B /* xxddkit-example tvOS */,
+				B7A930F02171E170008B4C3B /* xxddkit-example macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7A930AC2171E170008B4C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A931022171E170008B4C3B /* GameScene.sks in Resources */,
+				B7A930B92171E170008B4C3B /* Main.storyboard in Resources */,
+				B7A930FF2171E170008B4C3B /* Actions.sks in Resources */,
+				B7A930BC2171E170008B4C3B /* LaunchScreen.storyboard in Resources */,
+				B7A9310A2171E170008B4C3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A930C02171E170008B4C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A9310B2171E170008B4C3B /* Assets.xcassets in Resources */,
+				B7A930C92171E170008B4C3B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A930CD2171E170008B4C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A931032171E170008B4C3B /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A930DD2171E170008B4C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A930E92171E170008B4C3B /* Main.storyboard in Resources */,
+				B7A931042171E170008B4C3B /* GameScene.sks in Resources */,
+				B7A9310C2171E170008B4C3B /* Assets.xcassets in Resources */,
+				B7A931002171E170008B4C3B /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A930EF2171E170008B4C3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A930FB2171E170008B4C3B /* Main.storyboard in Resources */,
+				B7A931052171E170008B4C3B /* GameScene.sks in Resources */,
+				B7A9310D2171E170008B4C3B /* Assets.xcassets in Resources */,
+				B7A931012171E170008B4C3B /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68C05982B63FEE1126DA5466 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xxddkit-example macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F805D9702C6EFA98E14A9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-xxddkit-example macOS/Pods-xxddkit-example macOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XXDDKit/XXDDKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XXDDKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xxddkit-example macOS/Pods-xxddkit-example macOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7A930AA2171E170008B4C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A930B62171E170008B4C3B /* GameViewController.m in Sources */,
+				B7A930BF2171E170008B4C3B /* main.m in Sources */,
+				B7A931062171E170008B4C3B /* GameScene.m in Sources */,
+				B7A930B32171E170008B4C3B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A930CB2171E170008B4C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A930D92171E170008B4C3B /* ExtensionDelegate.m in Sources */,
+				B7A931072171E170008B4C3B /* GameScene.m in Sources */,
+				B7A930D62171E170008B4C3B /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A930DB2171E170008B4C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A930E62171E170008B4C3B /* GameViewController.m in Sources */,
+				B7A930EC2171E170008B4C3B /* main.m in Sources */,
+				B7A931082171E170008B4C3B /* GameScene.m in Sources */,
+				B7A930E32171E170008B4C3B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A930ED2171E170008B4C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A930F82171E170008B4C3B /* GameViewController.m in Sources */,
+				B7A930FE2171E170008B4C3B /* main.m in Sources */,
+				B7A931092171E170008B4C3B /* GameScene.m in Sources */,
+				B7A930F52171E170008B4C3B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7A930C52171E170008B4C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7A930C12171E170008B4C3B /* xxddkit-example watchOS App */;
+			targetProxy = B7A930C42171E170008B4C3B /* PBXContainerItemProxy */;
+		};
+		B7A930D22171E170008B4C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7A930CE2171E170008B4C3B /* xxddkit-example watchOS App Extension */;
+			targetProxy = B7A930D12171E170008B4C3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7A930B72171E170008B4C3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A930B82171E170008B4C3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7A930BA2171E170008B4C3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A930BB2171E170008B4C3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B7A930C72171E170008B4C3B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A930C82171E170008B4C3B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		B7A930E72171E170008B4C3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A930E82171E170008B4C3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7A930F92171E170008B4C3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7A930FA2171E170008B4C3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7A9310E2171E170008B4C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		B7A9310F2171E170008B4C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		B7A931112171E170008B4C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973MCBRB6F;
+				INFOPLIST_FILE = "xxddkit-example watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zysdinfo.xxddkit-example.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "xxddkit-example Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		B7A931122171E170008B4C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973MCBRB6F;
+				INFOPLIST_FILE = "xxddkit-example watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zysdinfo.xxddkit-example.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "xxddkit-example Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		B7A931152171E170008B4C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973MCBRB6F;
+				IBSC_MODULE = xxddkit_example_Extension;
+				INFOPLIST_FILE = "xxddkit-example watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zysdinfo.xxddkit-example.watchkitapp";
+				PRODUCT_NAME = "xxddkit-example";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		B7A931162171E170008B4C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973MCBRB6F;
+				IBSC_MODULE = xxddkit_example_Extension;
+				INFOPLIST_FILE = "xxddkit-example watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zysdinfo.xxddkit-example.watchkitapp";
+				PRODUCT_NAME = "xxddkit-example";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		B7A931192171E170008B4C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973MCBRB6F;
+				INFOPLIST_FILE = "xxddkit-example iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zysdinfo.xxddkit-example";
+				PRODUCT_NAME = "xxddkit-example";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7A9311A2171E170008B4C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973MCBRB6F;
+				INFOPLIST_FILE = "xxddkit-example iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zysdinfo.xxddkit-example";
+				PRODUCT_NAME = "xxddkit-example";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7A9311C2171E170008B4C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973MCBRB6F;
+				INFOPLIST_FILE = "xxddkit-example tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zysdinfo.xxddkit-example";
+				PRODUCT_NAME = "xxddkit-example";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+			};
+			name = Debug;
+		};
+		B7A9311D2171E170008B4C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 973MCBRB6F;
+				INFOPLIST_FILE = "xxddkit-example tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zysdinfo.xxddkit-example";
+				PRODUCT_NAME = "xxddkit-example";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7A9311F2171E170008B4C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA406645C1C5A45FF5DED6F /* Pods-xxddkit-example macOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 973MCBRB6F;
+				INFOPLIST_FILE = "xxddkit-example macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zysdinfo.xxddkit-example";
+				PRODUCT_NAME = "xxddkit-example";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B7A931202171E170008B4C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C0C601116528A8C6A5A50D /* Pods-xxddkit-example macOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 973MCBRB6F;
+				INFOPLIST_FILE = "xxddkit-example macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zysdinfo.xxddkit-example";
+				PRODUCT_NAME = "xxddkit-example";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7A930A32171E16C008B4C3B /* Build configuration list for PBXProject "xxddkit-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A9310E2171E170008B4C3B /* Debug */,
+				B7A9310F2171E170008B4C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A931102171E170008B4C3B /* Build configuration list for PBXNativeTarget "xxddkit-example watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A931112171E170008B4C3B /* Debug */,
+				B7A931122171E170008B4C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A931142171E170008B4C3B /* Build configuration list for PBXNativeTarget "xxddkit-example watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A931152171E170008B4C3B /* Debug */,
+				B7A931162171E170008B4C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A931182171E170008B4C3B /* Build configuration list for PBXNativeTarget "xxddkit-example iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A931192171E170008B4C3B /* Debug */,
+				B7A9311A2171E170008B4C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A9311B2171E170008B4C3B /* Build configuration list for PBXNativeTarget "xxddkit-example tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A9311C2171E170008B4C3B /* Debug */,
+				B7A9311D2171E170008B4C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7A9311E2171E170008B4C3B /* Build configuration list for PBXNativeTarget "xxddkit-example macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A9311F2171E170008B4C3B /* Debug */,
+				B7A931202171E170008B4C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7A930A02171E16C008B4C3B /* Project object */;
+}

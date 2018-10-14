@@ -1,0 +1,56 @@
+{
+  "name": "XXDDKit",
+  "version": "0.1.0",
+  "summary": "A short description of XXDDKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lzg666456/XXDDKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lzg666456": "lzg666456@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lzg666456/XXDDKit.git",
+    "tag": "0.1.0",
+    "submodules": true
+  },
+  "requires_arc": true,
+  "prefix_header_contents": "#ifndef TARGET_OS_IOS\n  #define TARGET_OS_IOS TARGET_OS_IPHONE\n#endif\n\n#ifndef TARGET_OS_WATCH\n  #define TARGET_OS_WATCH 0\n#endif\n\n#ifndef TARGET_OS_TV\n  #define TARGET_OS_TV 0\n#endif",
+  "platforms": {
+    "ios": "7.0",
+    "osx": "10.9",
+    "watchos": "2.0",
+    "tvos": "9.0"
+  },
+  "public_header_files": "XXDDKit/XXDDKit.h",
+  "source_files": "XXDDKit/XXDDKit.h",
+  "subspecs": [
+    {
+      "name": "core",
+      "platforms": {
+        "ios": "7.0",
+        "osx": "10.9",
+        "watchos": "2.0",
+        "tvos": "9.0"
+      },
+      "public_header_files": "core/*.h",
+      "source_files": "core/*.{h,m}"
+    },
+    {
+      "name": "UIKit",
+      "platforms": {
+        "ios": "7.0",
+        "tvos": "9.0"
+      },
+      "dependencies": {
+        "XXDDKit/core": [
+
+        ]
+      },
+      "public_header_files": "UIKit+XXDDKit/*.h",
+      "source_files": "UIKit+XXDDKit/*.{h,m}"
+    }
+  ]
+}

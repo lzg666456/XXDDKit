@@ -1,0 +1,6 @@
+framework module XXDDKit {
+  umbrella header "XXDDKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
